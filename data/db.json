@@ -1,0 +1,276 @@
+{
+  "users": [
+    {
+      "id": "demo-user-1",
+      "phone": "79111002001",
+      "firstName": "Алексей",
+      "lastName": "Волков",
+      "graduationYear": 2015,
+      "isAdmin": true,
+      "createdAt": "2026-09-08T10:28:26.840Z"
+    },
+    {
+      "id": "demo-user-2",
+      "phone": "79111002002",
+      "firstName": "Мария",
+      "lastName": "Соколова",
+      "graduationYear": 2018,
+      "isAdmin": false,
+      "createdAt": "2026-09-08T09:28:26.840Z"
+    },
+    {
+      "id": "demo-user-3",
+      "phone": "79111002003",
+      "firstName": "Дмитрий",
+      "lastName": "Орлов",
+      "graduationYear": 2016,
+      "isAdmin": false,
+      "createdAt": "2026-09-08T08:28:26.840Z"
+    },
+    {
+      "id": "demo-user-4",
+      "phone": "79111002004",
+      "firstName": "Анна",
+      "lastName": "Крылова",
+      "graduationYear": 2019,
+      "isAdmin": false,
+      "createdAt": "2026-09-08T07:28:26.840Z"
+    },
+    {
+      "id": "demo-user-5",
+      "phone": "79111002005",
+      "firstName": "Сергей",
+      "lastName": "Морозов",
+      "graduationYear": 2014,
+      "isAdmin": false,
+      "createdAt": "2026-09-08T06:28:26.840Z"
+    },
+    {
+      "id": "demo-user-6",
+      "phone": "79111002006",
+      "firstName": "Полина",
+      "lastName": "Лебедева",
+      "graduationYear": 2017,
+      "isAdmin": false,
+      "createdAt": "2026-09-08T05:28:26.840Z"
+    },
+    {
+      "id": "demo-user-7",
+      "phone": "79111002007",
+      "firstName": "Игорь",
+      "lastName": "Стрелков",
+      "graduationYear": null,
+      "isAdmin": false,
+      "createdAt": "2026-09-08T04:28:26.840Z"
+    },
+    {
+      "id": "demo-user-8",
+      "phone": "79111002008",
+      "firstName": "Ольга",
+      "lastName": "Виноградова",
+      "graduationYear": 2020,
+      "isAdmin": false,
+      "createdAt": "2026-09-08T03:28:26.840Z"
+    },
+    {
+      "id": "demo-user-9",
+      "phone": "79111002009",
+      "firstName": "Никита",
+      "lastName": "Зайцев",
+      "graduationYear": 2015,
+      "isAdmin": false,
+      "createdAt": "2026-09-08T02:28:26.840Z"
+    },
+    {
+      "id": "demo-user-10",
+      "phone": "79111002010",
+      "firstName": "Екатерина",
+      "lastName": "Белова",
+      "graduationYear": null,
+      "isAdmin": false,
+      "createdAt": "2026-09-08T01:28:26.840Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "d1c24d18efe402f72980f2cda2ffb8bcb3759b61976d2edb49158cdec6b58b3a",
+      "userId": "demo-user-1",
+      "expiresAt": "2026-10-09T11:07:00.865Z"
+    }
+  ],
+  "loginCodes": [],
+  "events": [
+    {
+      "id": "demo-1",
+      "title": "Вечерний сет в зале на Школьной",
+      "address": "Спортзал школы № 302, ул. Школьная, 8",
+      "startsAt": "2026-09-10T19:30",
+      "durationMin": 90,
+      "minPlayers": 6,
+      "maxPlayers": 8,
+      "description": "Классический вечерний сет: разминочка, две партии до 25 и игра на счёт. Мячи и форма свои, настроение — любое.",
+      "createdBy": "demo-user-1",
+      "cancelled": false,
+      "cancelReason": null,
+      "cancelledAt": null,
+      "createdAt": "2026-09-09T10:28:26.841Z"
+    },
+    {
+      "id": "demo-2",
+      "title": "Утренний турнир выходного дня",
+      "address": "Спорткомплекс «Олимп», ул. Академика Королёва, 12",
+      "startsAt": "2026-09-12T11:00",
+      "durationMin": 120,
+      "minPlayers": 6,
+      "maxPlayers": 8,
+      "description": "Два часа игры в утренний слот: короткая разминка, микс-команды и мини-турнир до трёх побед. Приходите чуть заранее.",
+      "createdBy": "demo-user-1",
+      "cancelled": false,
+      "cancelReason": null,
+      "cancelledAt": null,
+      "createdAt": "2026-09-09T10:28:26.841Z"
+    }
+  ],
+  "signups": [
+    {
+      "id": "2dcf0459-19ab-4956-953e-5fd8579e1b2b",
+      "eventId": "demo-1",
+      "userId": "demo-user-1",
+      "status": "cancelled",
+      "joinedAt": "2026-09-08T08:28:26.841Z"
+    },
+    {
+      "id": "edbf7f1f-ff99-4ef4-96c8-6b2f30d4e02f",
+      "eventId": "demo-1",
+      "userId": "demo-user-2",
+      "status": "active",
+      "joinedAt": "2026-09-08T08:35:26.841Z"
+    },
+    {
+      "id": "950b2e54-73cd-4592-85ee-688ce3bd38e1",
+      "eventId": "demo-1",
+      "userId": "demo-user-3",
+      "status": "active",
+      "joinedAt": "2026-09-08T08:42:26.841Z"
+    },
+    {
+      "id": "f6d982e1-1d61-474e-bb1f-90e486da066c",
+      "eventId": "demo-1",
+      "userId": "demo-user-4",
+      "status": "active",
+      "joinedAt": "2026-09-08T08:49:26.841Z"
+    },
+    {
+      "id": "8a270a4d-e4a1-4032-b1df-c696095dde86",
+      "eventId": "demo-1",
+      "userId": "demo-user-5",
+      "status": "active",
+      "joinedAt": "2026-09-08T08:56:26.841Z"
+    },
+    {
+      "id": "cac72d49-8d68-4f98-97b0-29848038d4a8",
+      "eventId": "demo-1",
+      "userId": "demo-user-6",
+      "status": "active",
+      "joinedAt": "2026-09-08T09:03:26.841Z"
+    },
+    {
+      "id": "389c585b-c58e-4255-8b7e-24b7447758f3",
+      "eventId": "demo-1",
+      "userId": "demo-user-7",
+      "status": "active",
+      "joinedAt": "2026-09-08T09:10:26.841Z"
+    },
+    {
+      "id": "311c7a46-951c-435a-9279-9a1fb770aa17",
+      "eventId": "demo-1",
+      "userId": "demo-user-8",
+      "status": "active",
+      "joinedAt": "2026-09-08T09:17:26.841Z"
+    },
+    {
+      "id": "4187841d-2701-4cce-8d3c-fa7e479da0ae",
+      "eventId": "demo-1",
+      "userId": "demo-user-9",
+      "status": "active",
+      "joinedAt": "2026-09-08T09:28:26.841Z"
+    },
+    {
+      "id": "b5782a0e-5e61-4309-94fe-2e0dcb087f06",
+      "eventId": "demo-1",
+      "userId": "demo-user-10",
+      "status": "waitlist",
+      "joinedAt": "2026-09-08T09:33:26.841Z"
+    },
+    {
+      "id": "861dae7c-7daf-4fbe-905a-6a6422168362",
+      "eventId": "demo-2",
+      "userId": "demo-user-3",
+      "status": "active",
+      "joinedAt": "2026-09-08T08:28:26.841Z"
+    },
+    {
+      "id": "d369436d-821b-40f1-b389-2f9f29604533",
+      "eventId": "demo-2",
+      "userId": "demo-user-4",
+      "status": "active",
+      "joinedAt": "2026-09-08T08:34:26.841Z"
+    },
+    {
+      "id": "d5c75668-7149-404b-b407-fd02ab7074f3",
+      "eventId": "demo-2",
+      "userId": "demo-user-5",
+      "status": "active",
+      "joinedAt": "2026-09-08T08:40:26.841Z"
+    },
+    {
+      "id": "2dd6ee19-762f-4f58-9aec-f05b367898d6",
+      "eventId": "demo-2",
+      "userId": "demo-user-6",
+      "status": "active",
+      "joinedAt": "2026-09-08T08:46:26.841Z"
+    },
+    {
+      "id": "63f894f9-f7e7-45ac-96a6-b2d8ea1f6892",
+      "eventId": "demo-2",
+      "userId": "demo-user-7",
+      "status": "active",
+      "joinedAt": "2026-09-08T08:52:26.841Z"
+    },
+    {
+      "id": "2fbdfb66-0b79-4571-bed7-5fce61fc9b63",
+      "eventId": "demo-2",
+      "userId": "demo-user-8",
+      "status": "active",
+      "joinedAt": "2026-09-08T08:58:26.841Z"
+    },
+    {
+      "id": "83ca3031-91d2-4cfd-8722-a16623252375",
+      "eventId": "demo-2",
+      "userId": "demo-user-9",
+      "status": "active",
+      "joinedAt": "2026-09-08T09:04:26.841Z"
+    },
+    {
+      "id": "3f78b61e-21bc-4f18-a266-d62cd94feb00",
+      "eventId": "demo-2",
+      "userId": "demo-user-10",
+      "status": "active",
+      "joinedAt": "2026-09-08T09:10:26.841Z"
+    },
+    {
+      "id": "987db783-de7d-4c9c-8117-ef6328089ab0",
+      "eventId": "demo-2",
+      "userId": "demo-user-2",
+      "status": "waitlist",
+      "joinedAt": "2026-09-08T09:58:26.841Z"
+    },
+    {
+      "id": "d8b7bfea-962f-43a2-b716-02b6b2ae85f4",
+      "eventId": "demo-1",
+      "userId": "demo-user-1",
+      "status": "waitlist",
+      "joinedAt": "2026-09-09T11:06:19.678Z"
+    }
+  ]
+}

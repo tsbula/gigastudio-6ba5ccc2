@@ -1,0 +1,12 @@
+<svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="78" height="78" rx="20" fill="#1d4e89"/>
+  <clipPath id="ball">
+    <circle cx="39" cy="39" r="24"/>
+  </clipPath>
+  <circle cx="39" cy="39" r="24" stroke="#f2b63c" stroke-width="5" fill="none"/>
+  <g clip-path="url(#ball)" stroke="#f2b63c" stroke-width="4.5" fill="none" stroke-linecap="round">
+    <path d="M14 33c9 7 30 7 44-4"/>
+    <path d="M30 16c6 14 6 27 1 44"/>
+    <path d="M52 17c-4 13-4 26 1 42"/>
+  </g>
+</svg>
